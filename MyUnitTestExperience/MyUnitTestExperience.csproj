@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.2">
       <PrivateAssets>all</PrivateAssets>
@@ -16,7 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\UnitTest.Business\UnitTest.Business.csproj" />
     <ProjectReference Include="..\UntTest.Data\UntTest.Data.csproj" />
+    <ProjectReference Include="..\UntTest.Domain\UntTest.Domain.csproj" />
   </ItemGroup>
 
 </Project>

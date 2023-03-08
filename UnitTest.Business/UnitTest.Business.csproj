@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="EventArguments\**" />
+    <EmbeddedResource Remove="EventArguments\**" />
+    <None Remove="EventArguments\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\UntTest.Data\UntTest.Data.csproj" />
+    <ProjectReference Include="..\UntTest.Domain\UntTest.Domain.csproj" />
   </ItemGroup>
 
 </Project>

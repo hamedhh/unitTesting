@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest.Business", "UnitTe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0DB21967-4957-46F0-B1A1-30E2FD978B47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UntTest.Domain", "UntTest.Domain\UntTest.Domain.csproj", "{56CD5A72-D3B9-4471-917F-1263923ED142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UntTest.Domain", "UntTest.Domain\UntTest.Domain.csproj", "{56CD5A72-D3B9-4471-917F-1263923ED142}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
